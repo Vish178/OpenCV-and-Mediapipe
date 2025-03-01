@@ -1,4 +1,3 @@
-![Intencity](https://github.com/user-attachments/assets/2197afe8-dea4-4493-ae0d-b8ece5af4cae)
 ## Face Detection
 
 The face detection system uses the `face_recognition` library and OpenCV to recognize faces in real-time from a webcam feed.  
@@ -68,9 +67,9 @@ Main script uses udp protocol the send data to unity for demonstration purpose.
 
 - `gesture_detectionpy`: Main script for gesture detection.
 - `lights.cs`: It control the lights on the basis of player's location.
-- `UDPReceive.cs`: C# script to receive data from python script to unity.
-![ON and OFF](https://github.com/user-attachments/assets/bddce9fa-795b-4f9d-bbb6-3f437f441585)  
-![Intencity](https://github.com/user-attachments/assets/8caca28c-fc01-4bf6-8bc2-51e577e4dd03)
+- `UDPReceive.cs`: C# script to receive data from python script to unity.  
+![ON and OFF](https://github.com/user-attachments/assets/04bfa899-f85c-4394-843e-4771a2ae78b3)
+![Intencity](https://github.com/user-attachments/assets/8caca28c-fc01-4bf6-8bc2-51e577e4dd03)  
 
 
 
