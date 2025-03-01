@@ -69,7 +69,7 @@ Main script uses udp protocol the send data to unity for demonstration purpose.
 - `gesture_detectionpy`: Main script for gesture detection.
 - `lights.cs`: It control the lights on the basis of player's location.
 - `UDPReceive.cs`: C# script to receive data from python script to unity.
-![ON and OFF](https://github.com/user-attachments/assets/bddce9fa-795b-4f9d-bbb6-3f437f441585)
+![ON and OFF](https://github.com/user-attachments/assets/bddce9fa-795b-4f9d-bbb6-3f437f441585)  
 ![Intencity](https://github.com/user-attachments/assets/8caca28c-fc01-4bf6-8bc2-51e577e4dd03)
 
 
