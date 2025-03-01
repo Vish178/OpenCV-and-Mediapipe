@@ -1,7 +1,8 @@
-
+![Intencity](https://github.com/user-attachments/assets/2197afe8-dea4-4493-ae0d-b8ece5af4cae)
 ## Face Detection
 
-The face detection system uses the `face_recognition` library and OpenCV to recognize faces in real-time from a webcam feed.
+The face detection system uses the `face_recognition` library and OpenCV to recognize faces in real-time from a webcam feed.  
+The library requires dlib and cmake installed you check the Official website [Link](https://pypi.org/project/face-recognition/).
 
 ### Usage
 
@@ -18,7 +19,8 @@ The face detection system uses the `face_recognition` library and OpenCV to reco
 
 ## Fall Detection
 
-The fall detection system uses a YOLO model to detect falls in video files.
+The fall detection system uses a YOLO model to detect falls in video files.  
+Yolo makes everthing really easy just few lines of codes and this model and automatically detects camera starts streaming.
 
 ### Usage
 
@@ -51,6 +53,26 @@ The model is trained on this dataset [Link](https://universe.roboflow.com/fire-d
 - `Fire_detector.pt`: Trained model file.
 - `fire-dataset-2-11/`: Dataset for training and validation.
 - `fire1.jpeg`, `fire3.mp4`: Sample media files.
+
+## Gesture Detection
+The script uses mediapipe for hand detection with it's hand landmarks model.
+Model uses 21 landmarks to detection two hands you checkout Mediapipe's official website [Link](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker)  
+Main script uses udp protocol the send data to unity for demonstration purpose.
+###Usage
+
+1. Run the script:
+    ```sh
+    python Gesture/gesture_detection.py
+    ```
+    ### Files
+
+- `gesture_detectionpy`: Main script for gesture detection.
+- `lights.cs`: It control the lights on the basis of player's location.
+- `UDPReceive.cs`: C# script to receive data from python script to unity.
+![ON and OFF](https://github.com/user-attachments/assets/bddce9fa-795b-4f9d-bbb6-3f437f441585)
+![Intencity](https://github.com/user-attachments/assets/8caca28c-fc01-4bf6-8bc2-51e577e4dd03)
+
+
 
 ## Pose Detection
 
