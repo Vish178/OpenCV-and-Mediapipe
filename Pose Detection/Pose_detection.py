@@ -1,4 +1,3 @@
-import socket
 import cv2
 import mediapipe as mp
 import time
@@ -15,8 +14,8 @@ prevTime = 0
 mpPose = mp.solutions.holistic
 mpDraw = mp.solutions.drawing_utils
 pose = mpPose.Holistic(model_complexity=1)
-socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-server_address = ('localhost', 10000)
+
+
 while True:
     FrameCount += 1
     #read image and convert to rgb
@@ -35,7 +34,8 @@ while True:
         landmarks = results.left_hand_landmarks.landmark
         for id, lm in enumerate(landmarks):
             ldm.extend([lm.x,1 - lm.y,lm.z])
-        socket.sendto(str(ldm).encode(), server_address)
+
+    
     if results.right_hand_landmarks:
         mpDraw.draw_landmarks(img, results.right_hand_landmarks, mpPose.HAND_CONNECTIONS)
  
@@ -55,5 +55,7 @@ while True:
     cv2.waitKey(1)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+
+
 capture.release()
 cv2.destroyAllWindows()
