@@ -43,9 +43,11 @@ The Model is trained with yolo11s and the dataset from roboflow[link](https://un
 
 The fire detection system uses a trained model to detect fire in images or videos.
 You can the download the pretrained [Link](https://drive.google.com/file/d/1JkastcxV8s7LscjSeC9prmnSPxEdiaUJ/view?usp=sharing).  
-The model is trained on this dataset [Link](https://universe.roboflow.com/fire-detector/fire-dataset-2/dataset/11).
-### Usage
+The model is trained on this dataset [Link](https://universe.roboflow.com/fire-detector/fire-dataset-2/dataset/11).  
 
+![Fire](https://github.com/user-attachments/assets/be275670-34c2-4359-bfd6-e25b9ce5d348)  
+
+### Usage
 1. Run the script:
     ```sh
     python 'Fire/fire_detection.py'
