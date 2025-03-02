@@ -22,7 +22,9 @@ The library requires dlib and cmake installed you check the Official website [Li
 
 The fall detection system uses a YOLO model to detect falls in video files.  
 Yolo makes everthing really easy just few lines of codes and this model and automatically detects camera starts streaming.
-The Model is trained with yolo11s and the dataset from roboflow[link](https://universe.roboflow.com/roboflow-universe-projects/fall-detection-ca3o8)
+The Model is trained with yolo11s and the dataset from roboflow[link](https://universe.roboflow.com/roboflow-universe-projects/fall-detection-ca3o8)  
+
+![Fall Detection - Made with Clipchamp](https://github.com/user-attachments/assets/688bc9b8-bb2b-4fee-b660-32d89c303c82)  
 
 ### Usage
 
